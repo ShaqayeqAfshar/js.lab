@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    width: 60%;
+    margin: 3rem auto;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+
+div{
+
+    width: 210px;
+    height: 210px;
+    margin: .5rem;
+    background-color: lightgray;
+
+}
