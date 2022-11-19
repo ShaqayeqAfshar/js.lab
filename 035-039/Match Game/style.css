@@ -1,0 +1,50 @@
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 650px;
+    height: 650px;
+
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border: 1px solid white;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 4rem;
+    display: none !important;
+}
+
+div.show i {
+    display: block !important;
+}
+
+div.green {
+    background-color: lightgreen;
+}
+div.red {
+    background-color: lightcoral;
+}
+.show{
+    pointer-events: none;
+}
+.disable{
+    pointer-events: none;
+}
