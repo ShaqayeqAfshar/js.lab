@@ -5,10 +5,10 @@ let nextBtn = document.getElementById("next")
 let prevBtn = document.getElementById("prev")
 
 // source of truth
-const IMAGES = ["eram", "ghare", "kiasar", "koroush", "niavaran"];
+/*const IMAGES = ["eram", "ghare", "kiasar", "koroush", "niavaran"];
 const PLACES = ["باغ ارم", "قره کلیسا", "کیاسر", "آرامگاه کوروش", "کاخ نیاوران"];
 const CITIES = ["شیراز", "آذربایجان غربی", "مازندران", "فارس", "تهران"];
-//let index = Math.floor(Math.random()*IMAGES.length)
+let index = Math.floor(Math.random()*IMAGES.length)*/
 const SLIDES = [
     {
         image: "eram",
