@@ -9,15 +9,43 @@ const IMAGES = ["eram", "ghare", "kiasar", "koroush", "niavaran"];
 const PLACES = ["باغ ارم", "قره کلیسا", "کیاسر", "آرامگاه کوروش", "کاخ نیاوران"];
 const CITIES = ["شیراز", "آذربایجان غربی", "مازندران", "فارس", "تهران"];
 //let index = Math.floor(Math.random()*IMAGES.length)
+const SLIDES = [
+    {
+        image: "eram",
+        place: "باغ ارم",
+        city: "شیراز"
+    },
+    {
+        image: "ghare",
+        place: "قره کلیسا",
+        city: "آذربایجان غربی"
+    },
+    {
+        image: "kiasar",
+        place: "کیاسر",
+        city: "مازندران"
+    },
+    {
+        image: "koroush",
+        place: "آرامگاه کوروش",
+        city: "فارس"
+    },
+    {
+        image: "niavaran",
+        place: "کاخ نیاوران",
+        city: "تهران"
+    },
+  
+]
 let index = 1;
 
 
 //function
 function render(index) {
-    document.body.style.background = `url(./img/${IMAGES[index]}.jpg)`;
+    document.body.style.background = `url(./img/${SLIDES[index].image}.jpg)`;
     document.body.style.backgroundSize = 'cover';
-    place.textContent = PLACES[index];
-    city.textContent = CITIES[index];
+    place.textContent = SLIDES[index].place;
+    city.textContent = SLIDES[index].city;
 }
 
 
