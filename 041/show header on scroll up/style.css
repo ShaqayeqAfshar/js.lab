@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    width: 100%;
+    height: 400vh;
+    background-color: lightgray;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+    padding-right:100px ;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    padding: 10px 32px;
+}
+h1{
+    align-self:left;
+    margin-right: 600px;
+    color: white;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
