@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body , section{
+    width: 100%;
+    min-height: 100vh;
+    max-height: max-content;
+    margin: 0%;
+}
